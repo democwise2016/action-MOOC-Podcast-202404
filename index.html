@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>action-MOOC-Podcast</title>
+  <script>
+  function copyPlainString (text) {
+    if (!navigator.clipboard) {
+      this.fallbackCopyTextToClipboard(text);
+      return;
+    }
+    navigator.clipboard.writeText(text).then(function () {
+      //console.log('Async: Copying to clipboard was successful!');
+    }, function (err) {
+      //console.error('Async: Could not copy text: ', err);
+    });
+  }
+  </script>
+</head>
+<body>
+<ol>
+<li>
+      <button type="button" style="font-size: 3rem" onclick="copyPlainString('https://democwise2016.github.io/action-MOOC-Podcast-202404/advertising-strategy-and-planning-practice-112-high-school-independent-study-ub_mwev89LIrko.rss');this.style.color='red';">COPY</button>
+      <a href="https://democwise2016.github.io/action-MOOC-Podcast-202404/advertising-strategy-and-planning-practice-112-high-school-independent-study-ub_mwev89LIrko.rss" target="_blank">廣告策略與企劃實務（112高中自主學習）</a>
+      (<a href="https://www.youtube.com/watch?v=mwev89LIrko" target="_blank">source</a>)
+    </li></ol>
+</body>
+</html>
