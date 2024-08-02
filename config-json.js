@@ -1,7 +1,7 @@
 let CONFIG = {
   publicURL: `https://democwise2016.github.io/action-MOOC-Podcast-202404/`,
   publicURLShorten: `https://rb.gy/j56mc5`,  // https://democwise2016.github.io/action-MOOC-Podcast-202404/
-  thumbnailBorderColor: '33CC33',
+  thumbnailBorderColor: '44001A',
   titleAppend: '[MC+]',
   idAppend: false,
 
